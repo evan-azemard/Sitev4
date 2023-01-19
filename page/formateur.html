@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formateur</title>
+    <script defer src="../assets/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/style.css">
+    <script src="https://kit.fontawesome.com/9eb7f5d05f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<main>
+    <div class="container-fluid h-100">
+        <div class="row h-100">
+            <div class="col-6 h-100 d-flex f-column align-items-center justify-content-center" id="containerFormateur">
+                <h1>Formateur</h1>
+                <!--carousel-->
+                <div class="container h-100" id="containerFormateurAvis">
+                    <div class="row h-100 ">
+                        <div class="col-1 h-100  align-items-center d-flex flex-column justify-content-center">
+                            <span class="prev" aria-hidden="true">< </span>
+                        </div>
+                        <div class="col-10 h-100 text-center d-flex flex-column justify-content-center position-relative">
+                            <div class="row itemParagrapheFormateur" id="ItemActiveParagrapheFormateur">
+                                <p >Laure: Evan est un excellent professeur, il est capable de vous expliquer les concepts de programmation de manière claire et compréhensible, même si cela peut être complexe. Il est à l'écoute de ses élèves et prend le temps de répondre à toutes les questions, même en dehors des heures de cours. Il est également respectueux et possède une pédagogie efficace.</p>
+                            </div>
+                            <div class="row itemParagrapheFormateur">
+                                <p > Florient: Evan a su me donner une perspective différente sur les langages web tels que HTML, CSS et Bootstrap.</p>
+                            </div>
+                            <div class="row itemParagrapheFormateur">
+                                <p >Maxance: Il m'a aidé à comprendre les nuances de PHP, JavaScript et Angular.</p>
+                            </div>
+                            <div class="row itemParagrapheFormateur">
+                                <p >Maxime: Evan a su me guider étape par étape lors de l'installation de mon serveur local, rendant l'expérience sereine et facile à comprendre.</p>
+                            </div>
+                            <div class="row itemParagrapheFormateur">
+                                <p >Clément: Personnellement, j'ai trouvé Evan incroyablement compétent dans sa capacité à expliquer les concepts de manière claire et accessible. Ses méthodes pédagogiques efficaces, qui incluaient des explications répétées et une prise de temps pour s'assurer de la compréhension, ont rendu l'apprentissage plus facile pour moi.</p>
+                            </div>
+                            <div class="row itemParagrapheFormateur">
+                                <p >Valentin: Malgré mes débuts timides, Evan a su me guider efficacement à travers les fonctionnalités clés du code.</p>
+                            </div>
+                            <div class="row itemParagrapheFormateur">
+                                <p >Nicola: Evan est un pédagogue, patient et pertinent dans l'identification des besoins d'informations, et sa réponse apportée est toujours efficace.</p>
+                            </div>
+                        </div>
+                        <div class="col-1 h-100  align-items-center d-flex flex-column justify-content-center">
+                            <span class="next" aria-hidden="true">> </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--form-->
+                <form class="formShadow">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Téléphone</label>
+                        <input type="tel" class="form-control" id="exampleInputTel" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleInputPassword1"></textarea>
+                    </div>
+                    <div id="emailHelp" class="form-text">Réponse dans la journée</div>
+                    <button type="submit" class="btn btn-light">Envoyer</button>
+                </form>
+            </div>
+            <div class="col-6 h-100">
+                <div class="row h-100 position-relative bg-light d-flex f-column align-items-center justify-content-center">
+                    <!--Accordéon-->
+                    <div class="accordion accordion-flush accordionCont" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Stacks de compétences
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse overflow-auto" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="AccorPara">En tant que développeur web, j'ai une solide expertise technique dans les technologies clés telles que HTML5, CSS3, JavaScript, PHP et SQL. Mon niveau de compétence en PHP, SQL et JavaScript est avancé, tandis que j'ai une grande expérience en HTML5, CSS3, bootstrap, responsive design et Github. Je suis également compétent  en matière de création de maquettes wireframe et mockup, et possède des connaissances en SEO et accessibilité. Mes compétences techniques me permettent de transmettre efficacement les connaissances et les bonnes pratiques aux professionnels et aux développeurs en herbe dans le domaine du développement web.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    Parcours professionnel
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse overflow-auto" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="AccorPara">Mon parcours professionnel en tant que développeur web a été marqué par une solide formation technique. J'ai acquis des connaissances en AJAX, jQuery, Symfony, Angular et autres technologies avancées grâce à une formation complète de plusieurs années. J'ai également profité de nombreux mois de formation pour renforcer mes compétences et me perfectionner dans les technologies clés telles que Figma, PHP, notamment en utilisant les concepts de la structure MVC et de la programmation orientée objet. De même pour HTML et CSS, j'ai une grande expérience dans la création de pages web esthétiques et fonctionnelles. J'ai également consacré du temps pour me perfectionner en javascript vanilla. J'ai été formé à l'utilisation de différents environnements de développement tels que Windows/Linux, à l'utilisation de machines virtuelles et de vhosts Apache. Mon niveau de compétence est équivalent à un bac+3</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Méthodologie
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse overflow-auto" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="AccorPara">Ma méthodologie de formation se base sur la pratique concrète et l’explication claire des concepts. Je fournis des supports de cours en PDF pour faciliter la compréhension des thèmes abordés, et j'utilise des exemples concrets pour illustrer les points importants. Je pratique également le "live coding" pour montrer l'application immédiate des concepts enseignés. En tant que dyslexique, j'ai dû m'adapter à la compréhension des textes depuis toujours, ce qui m'a permis de développer une grande capacité à m'adapter à chaque personne. J'ai également de l'expérience en tant qu'animateur et formateur auprès de personnes âgées qui n'ont pas encore été initiées à l'utilisation des technologies numériques dans leur vie quotidienne et auprès de néophyte en développement web, ce qui m'a permis d'acquérir une grande sensibilité pour m'adapter aux besoins de chacun.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row bottom-0 position-absolute">
+                        <div class="col-4"> </div>
+                        <div class="col-8 d-flex justify-content-around">
+                            <button class="btn btnRetourFormateur" id="Avis"> Avis</button>
+                            <button class="btn btnRetourFormateur" id="Contact"> Contact</button>
+                            <a class="btn btnRetourFormateur" href="../index.html"> Accueil</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
